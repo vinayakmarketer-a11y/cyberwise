@@ -1,0 +1,6 @@
+{
+  "name": "CyberWise Skillsversity",
+  "description": "Premium educational platform for CyberWise Skillsversity - Digital Marketing Training Institute in Kerala, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
