@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import CourseInquiryModal from "./components/CourseInquiryModal";
 import { Sparkles, Calendar, BookOpen, AlertCircle, ArrowUp } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -75,6 +76,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 relative">
+      <SpeedInsights />
       
       {/* Top Banner Accent informing of active enrollments */}
       <div className="bg-gradient-to-r from-purple-800 to-indigo-800 text-white py-2 px-4 text-center text-xs font-semibold relative z-50 flex items-center justify-center gap-2">
